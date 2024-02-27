@@ -1,18 +1,8 @@
-# Pterodactyl webhost egg
+# Pterodactyl egg nginx
 
+Se que te esta dando curiosidad de donde proviene este egg, pues genial! con un poco de mente podras encontrarlo. Odviamente eres del equipo de bytehosting que tiene acceso al panel, odio ese tipo de personas que anda mirando los comandos y de donde proviene y tal tal siendo que no habria ningun riesgo.
 
-
-How to use:
-1. Go to releases and download the json file
-2. Import the egg to your panel like you normally do
-3. Create a new server, additionally you can enable wordpress, this will install wordpress for you
-and you can also install composer packages, this can also be done after the install
-4. Navigate to the given port and ip and you are good to go just add you files to the webroot folder
-(when using wordpress go to http://ip:port/wp-admin)
-Note: if you want it using a domain then create a reverse proxy on the host 
-
-
-To remove logs from console, open nginx/conf.d/default.conf and uncomment (remove #):
+# Bendiciones personita curiosa.
 
 ```
 #access_log /home/container/naccess.log;
@@ -20,7 +10,3 @@ To remove logs from console, open nginx/conf.d/default.conf and uncomment (remov
 ```
 
 
-Originally forked and edited from https://gitlab.com/tenten8401/pterodactyl-nginx
-
-
-© Sigma Productions 2023

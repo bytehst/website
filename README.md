@@ -5,8 +5,8 @@ Se que te esta dando curiosidad de donde proviene este egg, pues genial! con un 
 # Bendiciones personita curiosa.
 
 ```
-#access_log /home/container/naccess.log;
-#error_log  /home/container/nerror.log error
+# En esta ubicacion encontraras los accesos exitosos a la web. /home/container/naccess.log;
+# En esta ubicacion encontraras los errores que ha tenido el servidor, si tienes problemas comunicate con cristianmusical.  /home/container/nerror.log error
 ```
 
 
